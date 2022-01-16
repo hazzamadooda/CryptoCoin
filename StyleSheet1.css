@@ -1,0 +1,57 @@
+﻿.Section1 {
+    display: grid;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    margin-top: 10vh;
+    margin: 0vh;
+    height: 100vh;
+    background: green;
+    position: relative;
+    
+}
+
+.Section1 .texts {
+    width:785px;
+    height:10vh;
+    height:fit-content;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #dff9fb;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+.Section1 .info {
+    width: 785px;
+    height:10vh;
+    padding-top: 5vh;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+.Section1 .main_image {
+    width: 1vh;
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
+
+.Section2 {
+    width: 100%;
+    height: 100vh;
+    background: red;
+    position: relative;
+    margin: 0px;
+}
+
+.floating_header {
+    position: relative;
+    top: 0;
+    height:5vh;
+}
+
+
+body, html {
+    margin: 0;
+}
